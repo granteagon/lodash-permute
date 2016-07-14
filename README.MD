@@ -22,15 +22,15 @@ permute([1, 2, 3, 4, 5], (i, val) => val)
 let names = [{name: 'Fred'}, {name: 'Barney'}, {name: 'Wilma'}, {name: 'Betty'}]
 names = permute(names, [1, 1, 1, 2, 2, 2, 3, 3, 3, 0, 0, 0])
 // -> [ { name: 'Barney' },
-  { name: 'Barney' },
-  { name: 'Barney' },
-  { name: 'Wilma' },
-  { name: 'Wilma' },
-  { name: 'Wilma' },
-  { name: 'Betty' },
-  { name: 'Betty' },
-  { name: 'Betty' },
-  { name: 'Fred' },
-  { name: 'Fred' },
-  { name: 'Fred' } ]
+// { name: 'Barney' },
+// { name: 'Barney' },
+// { name: 'Wilma' },
+// { name: 'Wilma' },
+// { name: 'Wilma' },
+// { name: 'Betty' },
+// { name: 'Betty' },
+// { name: 'Betty' },
+// { name: 'Fred' },
+// { name: 'Fred' },
+// { name: 'Fred' } ]
 ```
